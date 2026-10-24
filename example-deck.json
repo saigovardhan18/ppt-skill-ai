@@ -1,0 +1,60 @@
+{
+  "title": "DuckDB in 5 Minutes",
+  "theme": "technical",
+  "slides": [
+    {
+      "layout": "title",
+      "title": "DuckDB",
+      "subtitle": "Analytics without a separate database server"
+    },
+    {
+      "layout": "bullets",
+      "title": "Why in-process analytics matters",
+      "bullets": [
+        "No database server to operate",
+        "SQL directly over files and data frames",
+        "Columnar execution for analytical workloads"
+      ]
+    },
+    {
+      "layout": "process",
+      "title": "From SQL to results",
+      "steps": [
+        "Open data",
+        "Plan query",
+        "Execute vectors",
+        "Return results"
+      ]
+    },
+    {
+      "layout": "two_column",
+      "title": "A practical comparison",
+      "left_title": "DuckDB",
+      "left": [
+        "Embedded analytics",
+        "Local and remote files",
+        "Minimal setup"
+      ],
+      "right_title": "Server databases",
+      "right": [
+        "Separate service",
+        "Shared concurrent access",
+        "Operational administration"
+      ]
+    },
+    {
+      "layout": "closing",
+      "title": "Takeaway",
+      "subtitle": "Use DuckDB when analytical SQL belongs inside your application."
+    }
+  ],
+  "palette": {
+    "dark": "17232E",
+    "accent": "087F9C",
+    "background": "F1F6F8"
+  },
+  "palette_rationale": "Technical deck: clear luminance hierarchy and restrained teal accents.",
+  "design_intent": "High clarity and legible technical communication",
+  "color_reference": "Johannes Itten \u2014 The Art of Color",
+  "color_strategy": "light-dark and saturation"
+}
