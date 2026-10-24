@@ -1,4 +1,4 @@
-# Claude PPT Master v3
+# Claude PPT Master 
 
 ## Installation (Claude Desktop / Claude Code)
 1. Install Python 3.10+ and ensure `python` is available in your terminal.
